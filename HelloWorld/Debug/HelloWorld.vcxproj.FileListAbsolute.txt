@@ -1,0 +1,2 @@
+C:\Users\aleix\Documents\GitHub\Learncpp-tutorial\HelloWorld\Debug\HelloWorld.exe
+C:\Users\aleix\Documents\GitHub\Learncpp-tutorial\HelloWorld\Debug\HelloWorld.pdb
