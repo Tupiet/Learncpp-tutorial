@@ -1,0 +1,2 @@
+C:\Users\aleix\Documents\GitHub\Learncpp-tutorial\SumNumber\Debug\SumNumber.exe
+C:\Users\aleix\Documents\GitHub\Learncpp-tutorial\SumNumber\Debug\SumNumber.pdb
