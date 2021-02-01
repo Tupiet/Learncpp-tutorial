@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\aleix\Documents\GitHub\Learncpp-tutorial\SumNumber\Headers;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -148,8 +148,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="getInput.cpp" />
     <ClCompile Include="sum.cpp" />
     <ClCompile Include="SumNumber.cpp" />
+    <ClCompile Include="utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getInput.h" />
+    <ClInclude Include="sum.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
